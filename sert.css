@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+*{
+    font-family: "Poppins",sans-serif;
+}
+.googles{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+}
+.googles img{
+    size: 200px;
+}
+header{
+    background-color: white;
+    border-radius: 20px; 
+}
+.heroBtns{
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.sign-in{
+    background-color: #005eb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 20px;
+    top: 7.5px;
+    border: black;
+    backdrop-filter: blur(4px);
+}
+.googleapps{
+    position: absolute;
+    top: 7.5px;
+    right: 135px;
+}
+.googleapps:hover{
+    border-radius: 80px;
+    background-color: #eeeeeece;
+}
+.images{
+    position: absolute;
+    top: 15px;
+    right: 190px;
+    color: black;
+    text-decoration: none;
+}
+.images:hover{
+    text-decoration: underline;
+}
+.Gmail{
+    position: absolute;
+    top: 15px;
+    right: 280px;
+    color: black;
+    text-decoration: none; 
+}
+.Gmail:hover{
+    text-decoration: underline;
+}
+.googles input{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 270px;
+    size: 500px;
+    border-radius: 60px;
+    outline: none;
+    height: 50px;
+    border: none;
+    font-size: large;
+    padding-left: 60px;
+    background-color:#eeeeee;
+    width: 500px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.feeling{
+    position: absolute;
+    top: 350px;
+    right: 650px;
+    width: 150px;
+    height: 40px;
+    background-color: #eeeeee;
+    text-decoration: none;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+.research{
+    position: absolute;
+    top: 350px;
+    right: 800px;
+    width: 150px;
+    height: 40px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    background-color: #eeeeee;
+}
+footer{
+    background-color: #eeeeeece;
+    position: absolute;
+    top: 600px;
+    width: 1800px;
+    height:150px;
+}
+footer a{
+    color:black;
+    text-decoration: none;
+    margin-left: 12px;
+}
+footer a:hover{
+    text-decoration: underline;
+    
+}
+.searchimoji{
+    position: absolute;
+    right: 1020px;
+    top: 279px;
+    border-radius: 20px;
+}
+.searchimoji:hover{
+    background-color:grey;
+}
+.microphone{
+    border-radius: 20px;
+    position: absolute;
+    top: 279px;
+    right: 550px;
+}
+.microphone:hover{
+    background-color:grey;
+}
+.camera{
+    border-radius: 20px;
+    position: absolute;
+    top: 279px;
+    right: 580px;
+}
+.camera:hover{
+    background-color:grey;
+}
+.keyboard{
+    border-radius: 20px;
+    position: absolute;
+    top: 279px;
+    right: 610px;
+}
+.keyboard:hover{
+    background-color:grey;
+}
+.footer2{
+    position: absolute;
+    right: 8px;
+    top: 650px;
+    width: 250px;
+}
+.footer2 a{
+    color:black;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
